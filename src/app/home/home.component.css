@@ -1,0 +1,340 @@
+    .smdy_btn button {
+        border: none;
+        background: transparent;
+        color: #03222b;
+        padding: 0.8rem 1rem;
+        transition: all 0.5s;
+    }
+    
+    .smdy_btn button:hover {
+        background-color: #03222b;
+        color: white;
+        padding: 0.8rem 1rem;
+        border-radius: 47px;
+    }
+    
+    .we_deliver {
+        padding: 0 4rem 4rem 4rem;
+    }
+    
+    .we_deliver .txt_content {
+        padding: 4rem 0 0 0;
+    }
+    
+    .we_deliver h3 {
+        font-size: 3.313rem;
+        padding: 0 0 4rem 0;
+    }
+    
+    .we_deliver p {
+        font-size: 1.125rem;
+        width: 27rem;
+    }
+    
+    .download_app_second {
+        overflow: hidden;
+        border-top: 1px solid #f4f4f4;
+        padding: 3rem 4rem;
+    }
+    
+    .download_app_second h3 {
+        color: #4b7dbb;
+        padding: 0 0 7.8rem 0;
+        font-size: 3.125rem;
+    }
+    
+    .download_app_second p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.25rem;
+        color: #000;
+    }
+    /* Download our App now rotating img */
+    
+    .image_rotating {
+        margin-top: 6%;
+    }
+    
+    .animation_element {
+        margin: 0 auto;
+        max-width: 73%;
+        position: relative;
+    }
+    
+    .animation_element img.rounded_img {
+        /* width: 100%; */
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        border-radius: 50%;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .centre_img {
+        position: absolute;
+        top: 40%;
+        left: 35%;
+    }
+    
+    .sub-img-1 {
+        position: absolute;
+        opacity: 1;
+    }
+    
+    .sub-img-1 img {
+        box-shadow: 0 0 17px 3px black;
+        border-radius: 100%;
+    }
+    
+    .computer_repair {
+        top: 9%;
+        left: 2%;
+    }
+    
+    .printer_repair {
+        top: 0%;
+        right: 0%;
+    }
+    
+    .computer_accessories {
+        bottom: 5%;
+        left: 5%;
+    }
+    
+    .computer_desktop {
+        bottom: 0%;
+        right: 0;
+    }
+    
+    .google_ads {
+        top: -5%;
+        right: 27%;
+    }
+    
+    .sub-img-2 {
+        position: absolute;
+        opacity: 1;
+    }
+    
+    .sub-img-2 img {
+        box-shadow: 0 0 17px 3px black;
+        border-radius: 100%;
+    }
+    
+    .laptop_repair {
+        bottom: 45%;
+        left: 9%;
+    }
+    
+    .opd_buddy {
+        bottom: 45%;
+        right: -11%;
+    }
+    
+    .ups_repair {
+        bottom: 10%;
+        right: 35%;
+    }
+    
+    .sub-img-3 {
+        position: absolute;
+        opacity: 1;
+    }
+    
+    .sub-img-3 img {
+        box-shadow: 0 0 17px 3px black;
+        border-radius: 100%;
+    }
+    
+    .cctv_camera {
+        bottom: 68%;
+        right: 25%;
+    }
+    
+    .laptop {
+        bottom: 60%;
+        right: 5%;
+    }
+    
+    .ups {
+        bottom: 25%;
+        right: 10%;
+    }
+    
+    .csc {
+        bottom: 30%;
+        left: 29%;
+    }
+    
+    .m-width-1 img {
+        max-width: 56.25%;
+    }
+    
+    .m-width-2 img {
+        max-width: 43.75%;
+    }
+    
+    .m-width-3 img {
+        max-width: 31.25%;
+    }
+    /* Download our App now rotating img end */
+    /* how-we-work-for-you start */
+    
+    .how_wework_foryou {
+        margin: 5% 0;
+    }
+    
+    .how_wework_foryou .white_bg {
+        max-width: 300px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 19px;
+        border-radius: 35px;
+        box-shadow: 1px 3px 8px 0px black;
+        position: relative;
+    }
+    
+    .how_wework_foryou .module-border-wrap {
+        max-width: 280px;
+        padding: 1rem;
+        background: linear-gradient(to right, #0074ff, #01005b);
+        padding: 6px;
+        border-radius: 20px;
+    }
+    
+    .how_wework_foryou .module {
+        background: white;
+        color: black;
+        padding: 5rem 2rem;
+        border-radius: 20px;
+    }
+    
+    .how_wework_foryou .top-img img {
+        position: absolute;
+        top: -3%;
+        left: 16%;
+    }
+    
+    .how_wework_foryou .bottom-img img {
+        border-radius: 50%;
+        background: linear-gradient(to right, #0074ff, #01005b);
+        padding: 2%;
+        position: absolute;
+        bottom: -17%;
+        max-width: 149px;
+        left: 24%;
+    }
+    /* how-we-work-for-you end */
+    
+    .download_app_section {
+        background-image: url(../../assets/images/downlod_bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 7.75rem 0;
+    }
+    /* test start */
+    /* slider start */
+    
+    .servies_buddy_slider {
+        height: 400px !important;
+    }
+    
+    .servies_buddy_slider section {
+        position: relative;
+        height: 450px;
+        width: 1075px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .card {
+        position: relative;
+        background: #107f91;
+        border-radius: 20px;
+        margin: 20px 0;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card::before {
+        content: "";
+        position: absolute;
+        height: 40%;
+        width: 100%;
+        background: #0b5164;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+        position: relative;
+        z-index: 100;
+    }
+    
+    .servies_buddy_slider section .card .image {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        padding: 3px;
+        background: #0b5164;
+    }
+    
+    .servies_buddy_slider section .card .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+    
+    .card .name-profession {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .name-profession .name {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .name-profession .profession {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .under_line_img {
+        width: 50% !important;
+        padding: 5px 0;
+    }
+    
+    ul.social_id {
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul.social_id li {
+        display: inline;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+    
+    ul.social_id li a {
+        color: white;
+    }
+    /*  */
+    
+    button.accordion-button.collapsed {
+        background: red !important;
+    }
+    /*  */
