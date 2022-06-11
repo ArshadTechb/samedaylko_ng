@@ -1,3 +1,4 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 @font-face {
     font-family: 'Poppins', sans-serif;
     src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
@@ -116,17 +117,8 @@ footer .footer_copyright p {
     padding: 2rem 0;
 }
 
-.why_choose_us img {
-    width: 50%;
-    border-radius: 2%;
-}
-
 .why_choose_us .col-lg-6.bg_img {
-    text-align: center;
-}
-
-.why_choose_us .row .col-lg-2 img {
-    width: 70%;
+    text-align: right;
 }
 
 .best_app_lifestyle {

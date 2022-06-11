@@ -236,7 +236,15 @@
         background-image: url(../../assets/images/downlod_bg.png);
         background-repeat: no-repeat;
         background-position: right;
+        background-size: 50%;
         padding: 7.75rem 0;
+    }
+    
+    .download_app_section h3 {
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        color: #242f51;
     }
     /* test start */
     /* slider start */
@@ -338,3 +346,167 @@
         background: red !important;
     }
     /*  */
+    
+    .faq .text-center h2 {
+        font-family: 'Poppins', sans-serif;
+        color: #242f51;
+        font-weight: 600;
+        font-size: 2.5rem;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .faq .text-center p {
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        color: #616368;
+        padding: 0.5rem 0 2rem 0;
+        margin: 0;
+    }
+    
+    .our_customer_remark {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .our_customer_remark h3.main_heading_txt {
+        font-family: 'Poppins', sans-serif;
+        color: #242f51;
+        font-size: 3.313rem;
+        font-weight: 600;
+    }
+    
+    .our_customer_remark .customers_pics {
+        position: relative;
+    }
+    
+    .our_customer_remark .pics img {
+        max-width: 10%;
+        position: absolute;
+    }
+    
+    .our_customer_remark .pics img:nth-child(1) {
+        top: 0%;
+        left: 35%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(2) {
+        top: 5%;
+        right: 15%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(3) {
+        top: 35%;
+        right: 50%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(4) {
+        top: 25%;
+        left: 8%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(5) {
+        top: 50%;
+        left: 10%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(6) {
+        top: 50%;
+        right: 25%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(7) {
+        bottom: 0%;
+        left: 25%;
+    }
+    
+    .heading_text .content_heading h3 {
+        color: #242f51;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.469rem;
+        font-weight: 600;
+    }
+    
+    .heading_text .content_heading p {
+        color: #616368;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    .our_customer_remark img.bg_customers_pics {
+        width: -webkit-fill-available;
+    }
+    
+    .customer_view h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.313rem;
+        font-weight: 600;
+        color: #242f51;
+    }
+    
+    .why_choose_us h3,
+    .why_choose_us h4,
+    .why_choose_us p {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .why_choose_us .options {
+        color: #0b5164;
+        display: flex;
+    }
+    
+    .why_choose_us .options img {
+        width: 15%;
+        margin: auto;
+    }
+    
+    .why_choose_us span {
+        padding: 0 0 0 3rem;
+    }
+    
+    .why_choose_us .options span h4 {
+        font-size: 2.1rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .why_choose_us .options span p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin: 0 0 2px 0;
+        padding: 0;
+    }
+    
+    .why_choose_us .hdng_n_txt {
+        max-width: 70%;
+        padding-bottom: 3rem;
+    }
+    
+    .why_choose_us .hdng_n_txt p {
+        margin: 0;
+    }
+    /* 1 */
+    
+    @media only screen and (min-width:307px) and (max-width:381px) {
+        .why_choose_us .options {
+            display: inherit;
+        }
+    }
+    /* 2 */
+    
+    @media only screen and (min-width:382px) and (max-width:767px) {}
+    /* 3 */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {}
+    /* 4 */
+    
+    @media only screen and (min-width: 992px) and (max-width: 1024px) {}
+    /* 5 */
+    
+    @media only screen and (min-width: 1025px) and (max-width: 1094px) {}
+    /* 6 */
+    
+    @media only screen and (min-width: 1095px) and (max-width: 1523px) {}
