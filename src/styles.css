@@ -112,10 +112,12 @@ footer .footer_copyright p {
     display: inline;
 }
 
-.why_choose_us {
+
+/* .why_choose_us {
+    background-image: url(./assets/images/bg4_trangle.png);
     background-color: #f8f5ff;
     padding: 2rem 0;
-}
+} */
 
 .why_choose_us .col-lg-6.bg_img {
     text-align: right;

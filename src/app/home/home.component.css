@@ -32,14 +32,21 @@
     }
     
     .download_app_second {
+        background-repeat: no-repeat;
+        background-image: url(../../assets/images/download_app_BG2.png);
         overflow: hidden;
         border-top: 1px solid #f4f4f4;
         padding: 3rem 4rem;
+        background-position: right;
+    }
+    
+    .download_app_second .custom-width {
+        max-width: 60%;
     }
     
     .download_app_second h3 {
         color: #4b7dbb;
-        padding: 0 0 7.8rem 0;
+        padding: 0 0 3.5rem 0;
         font-size: 3.125rem;
     }
     
@@ -57,12 +64,11 @@
     .animation_element {
         margin: 0 auto;
         max-width: 73%;
-        position: relative;
     }
     
     .animation_element img.rounded_img {
         /* width: 100%; */
-        animation-name: rotate;
+        animation-name: bg_rotate;
         animation-duration: 2s;
         animation-delay: 0s;
         border-radius: 50%;
@@ -70,119 +76,94 @@
         animation-timing-function: linear;
     }
     
-    @keyframes rotate {
+    @keyframes bg_rotate {
         100% {
             transform: rotate(360deg);
         }
     }
+    /* ######################## */
     
-    .centre_img {
-        position: absolute;
+    .centre_logo {
+        width: 20%;
+    }
+    
+    img.centre_logo {
+        top: 39%;
+        left: 39%;
+    }
+    
+    img.sub-img-1 {
+        max-width: 15%;
+    }
+    
+    img.computer_repair {
+        top: 6%;
+        left: 15%;
+    }
+    
+    img.google_ads {
+        top: -10%;
+        left: 40%;
+    }
+    
+    img.printer_repair {
+        top: 6%;
+        right: 15%;
+    }
+    
+    img.computer_desktop {
+        bottom: 5%;
+        right: 15%;
+    }
+    
+    img.computer_accessories {
+        bottom: 5%;
+        left: 15%;
+    }
+    
+    img.sub-img-2 {
+        max-width: 12.5%;
+    }
+    
+    img.laptop_repair {
+        left: 18%;
         top: 40%;
+    }
+    
+    img.opd_buddy {
+        top: 40%;
+        right: 18%;
+    }
+    
+    img.ups_repair {
+        bottom: 10%;
         left: 35%;
     }
     
-    .sub-img-1 {
-        position: absolute;
-        opacity: 1;
+    img.sub-img-3 {
+        max-width: 10%;
     }
     
-    .sub-img-1 img {
-        box-shadow: 0 0 17px 3px black;
-        border-radius: 100%;
+    img.cctv_camera {
+        left: 45%;
+        top: 20%;
     }
     
-    .computer_repair {
-        top: 9%;
-        left: 2%;
+    img.laptop_img {
+        top: 30%;
+        right: 32%;
     }
     
-    .printer_repair {
-        top: 0%;
-        right: 0%;
-    }
-    
-    .computer_accessories {
-        bottom: 5%;
-        left: 5%;
-    }
-    
-    .computer_desktop {
-        bottom: 0%;
-        right: 0;
-    }
-    
-    .google_ads {
-        top: -5%;
-        right: 27%;
-    }
-    
-    .sub-img-2 {
-        position: absolute;
-        opacity: 1;
-    }
-    
-    .sub-img-2 img {
-        box-shadow: 0 0 17px 3px black;
-        border-radius: 100%;
-    }
-    
-    .laptop_repair {
-        bottom: 45%;
-        left: 9%;
-    }
-    
-    .opd_buddy {
-        bottom: 45%;
-        right: -11%;
-    }
-    
-    .ups_repair {
-        bottom: 10%;
+    img.ups_img {
+        bottom: 25%;
         right: 35%;
     }
     
-    .sub-img-3 {
-        position: absolute;
-        opacity: 1;
+    img.csc_img {
+        top: 55%;
+        left: 32%;
     }
-    
-    .sub-img-3 img {
-        box-shadow: 0 0 17px 3px black;
-        border-radius: 100%;
-    }
-    
-    .cctv_camera {
-        bottom: 68%;
-        right: 25%;
-    }
-    
-    .laptop {
-        bottom: 60%;
-        right: 5%;
-    }
-    
-    .ups {
-        bottom: 25%;
-        right: 10%;
-    }
-    
-    .csc {
-        bottom: 30%;
-        left: 29%;
-    }
-    
-    .m-width-1 img {
-        max-width: 56.25%;
-    }
-    
-    .m-width-2 img {
-        max-width: 43.75%;
-    }
-    
-    .m-width-3 img {
-        max-width: 31.25%;
-    }
+    /* ######################## */
     /* Download our App now rotating img end */
     /* how-we-work-for-you start */
     
@@ -226,8 +207,8 @@
         background: linear-gradient(to right, #0074ff, #01005b);
         padding: 2%;
         position: absolute;
-        bottom: -17%;
         max-width: 149px;
+        bottom: -17%;
         left: 24%;
     }
     /* how-we-work-for-you end */
@@ -446,6 +427,14 @@
         color: #242f51;
     }
     
+    .why_choose_us {
+        background-image: url(../../assets/images/bg4_trangle.png);
+        background-color: #f8f5ff;
+        padding: 5rem 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
     .why_choose_us h3,
     .why_choose_us h4,
     .why_choose_us p {
@@ -467,7 +456,7 @@
     }
     
     .why_choose_us .options span h4 {
-        font-size: 2.1rem;
+        font-size: 2rem;
         font-weight: 500;
         margin: 0;
         padding: 0;
@@ -485,8 +474,22 @@
         padding-bottom: 3rem;
     }
     
+    .why_choose_us .hdng_n_txt h3 {
+        font-size: 3rem;
+        color: #0b5164;
+        font-weight: 500;
+    }
+    
     .why_choose_us .hdng_n_txt p {
         margin: 0;
+    }
+    
+    .services_buddies h3 {
+        font-family: 'Proxima Nova';
+        font-size: 3rem;
+        font-weight: 500;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
     }
     /* 1 */
     
@@ -494,19 +497,79 @@
         .why_choose_us .options {
             display: inherit;
         }
+        .why_choose_us .hdng_n_txt {
+            max-width: 100%;
+            padding-bottom: 3rem;
+        }
+        .why_choose_us .options {
+            padding-bottom: 3rem;
+        }
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+        .how_wework_foryou .top-img img {
+            position: absolute;
+            top: -3%;
+            left: 12%;
+        }
+        .how_wework_foryou .bottom-img img {
+            bottom: -10%;
+            left: 22%;
+        }
+        .download_app_second {
+            padding: 1.5rem 0.1rem;
+            background-position: revert;
+            background-size: contain;
+        }
+        .download_app_second .custom-width {
+            max-width: 94%;
+        }
+        .we_deliver {
+            padding: 0 1rem;
+            margin: 0 auto;
+        }
+        .we_deliver h3 {
+            font-size: 2.8rem;
+            padding: 0 0 0.3rem 0;
+            margin: 0;
+        }
+        .we_deliver .txt_content {
+            padding: 2rem 0 0 0;
+        }
+        /*  */
     }
     /* 2 */
     
-    @media only screen and (min-width:382px) and (max-width:767px) {}
+    @media only screen and (min-width:382px) and (max-width:767px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
     /* 3 */
     
-    @media only screen and (min-width: 768px) and (max-width: 991px) {}
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
     /* 4 */
     
-    @media only screen and (min-width: 992px) and (max-width: 1024px) {}
+    @media only screen and (min-width: 992px) and (max-width: 1024px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
     /* 5 */
     
-    @media only screen and (min-width: 1025px) and (max-width: 1094px) {}
+    @media only screen and (min-width: 1025px) and (max-width: 1094px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
     /* 6 */
     
-    @media only screen and (min-width: 1095px) and (max-width: 1523px) {}
+    @media only screen and (min-width: 1095px) and (max-width: 1523px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
