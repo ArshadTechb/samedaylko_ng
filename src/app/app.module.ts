@@ -13,11 +13,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TicketComponent } from './ticket/ticket.component';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TicketService } from './services/tickets.service';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
+
 
 const myRoutes = [
   { path: "", component: HomeComponent },
   { path: "home", component: HomeComponent },
   { path: "ticket", component: TicketComponent },
+  { path: "privacypolicy", component:  PrivacyPolicyComponent},
+  { path: "terms", component:  TermsConditionsComponent},
   { path: "**", component: ErrorComponent }
 
   //I keep the new line
@@ -29,18 +35,23 @@ const myRoutes = [
     ErrorComponent,
     HeaderComponent,
     FooterComponent,
-    TicketComponent
+    TicketComponent,
+    PrivacyPolicyComponent,
+    TermsConditionsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoutes),
+    RouterModule.forRoot(myRoutes,{enableTracing:true, useHash: false ,scrollPositionRestoration: 'enabled'}),
+    // RouterModule.forRoot(myRoutes),
     ReactiveFormsModule,
     HttpClientModule,
     IvyCarouselModule,
     NgbModule,
+    FormsModule,
     BrowserAnimationsModule
   ],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
