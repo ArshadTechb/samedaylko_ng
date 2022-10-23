@@ -1,20 +1,4 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
-@font-face {
-    font-family: 'Poppins', sans-serif;
-    src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url(./assets/fonts/Roboto/Roboto-Bold.ttf);
-    src: url(./assets/fonts/Roboto/Roboto-Light.ttf);
-}
-
-@font-face {
-    font-family: 'Proxima Nova';
-    src: url(./assets/fonts/proximanova/ProximaNova-Regular.otf);
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -35,26 +19,6 @@
 
 .font-s53 {
     font-size: 3.313;
-}
-
-.poppins-semi {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-}
-
-.roboto-light {
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-}
-
-.roboto-bold {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-
-.proximanova-reg {
-    font-family: 'Proxima Nova';
-    font-weight: normal;
 }
 
 footer {
@@ -112,55 +76,14 @@ footer .footer_copyright p {
     display: inline;
 }
 
-
-/* .why_choose_us {
-    background-image: url(./assets/images/bg4_trangle.png);
-    background-color: #f8f5ff;
-    padding: 2rem 0;
-} */
-
 .why_choose_us .col-lg-6.bg_img {
     text-align: right;
-}
-
-.best_app_lifestyle {
-    background-image: url(./assets/images/best_app_lifestyle_BG3.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100% auto;
-    padding: 0 4rem;
-}
-
-.best_app_lifestyle ul li {
-    display: inline;
-    padding: 5px 10px;
-}
-
-.best_app_lifestyle .container-fluid {
-    padding: 11rem 0;
-}
-
-.best_app_lifestyle .smdy_img p {
-    color: #242f51;
-    background-color: #e2eaed;
-    border-radius: 1.25rem;
-    width: 23rem;
-}
-
-.best_app_lifestyle .smdy_img p img {
-    padding-right: 0.4rem;
 }
 
 .best_app_lifestyle .smdy_text h2 {
     font-size: 3.75rem;
     width: 43rem;
     color: #242f51;
-    font-weight: 600!important;
-}
-
-.best_app_lifestyle .smdy_text p {
-    color: #616368;
-    width: 33rem;
 }
 
 

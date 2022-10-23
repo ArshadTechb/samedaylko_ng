@@ -1,575 +1,1093 @@
-    .smdy_btn button {
-        border: none;
-        background: transparent;
-        color: #03222b;
-        padding: 0.8rem 1rem;
-        transition: all 0.5s;
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../../assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../../assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../../assets/fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../../assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url(../../assets/fonts/proximanova/ProximaNova-Regular.otf);
+}
+
+
+/* roboto light popins semibold */
+
+.best_app_lifestyle .smdy_text h2 {
+    font-family: "Poppins-SemiBold";
+}
+
+.smdy_btn button {
+    font-family: "Poppins-Bold";
+    border: none;
+    background: transparent;
+    color: #03222b;
+    padding: 0.8rem 1rem;
+}
+
+.smdy_btn ul li:nth-child(1) a button {
+    background-color: #03222b;
+    color: white;
+    padding: 0.8rem 1rem;
+    border-radius: 47px;
+}
+
+.smdy_btn ul li:nth-child(2) a button:hover {
+    border-radius: 47px;
+    border: 2px solid #03222b;
+}
+
+.download_app_second {
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/download_app_BG2.png);
+    overflow: hidden;
+    border-top: 1px solid #f4f4f4;
+    padding: 3rem 4rem;
+    background-position: right;
+}
+
+.download_app_second .custom-width {
+    max-width: 60%;
+}
+
+.download_app_second h3 {
+    font-family: "Poppins-SemiBold";
+    color: #4b7dbb;
+    padding: 0 0 3.5rem 0;
+    font-size: 3.125rem;
+}
+
+.download_app_second p {
+    font-family: "Roboto-Light";
+    font-size: 1.25rem;
+    color: #000;
+}
+
+.animation_element {
+    margin: 0 auto;
+    /* max-width: 73%; */
+}
+
+
+/* .animation_element img.rounded_img {
+    animation-name: bg_rotate;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} */
+
+@keyframes bg_rotate {
+    100% {
+        transform: rotate(360deg);
     }
-    
-    .smdy_btn button:hover {
-        background-color: #03222b;
-        color: white;
-        padding: 0.8rem 1rem;
-        border-radius: 47px;
+}
+
+
+/* Download our App now rotating img end */
+
+
+/* how-we-work-for-you start */
+
+.how_wework_foryou {
+    margin: 5% 0;
+}
+
+.how_wework_foryou .white_bg {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 19px;
+    border-radius: 35px;
+    box-shadow: 1px 3px 8px 0px black;
+    position: relative;
+}
+
+.how_wework_foryou .module-border-wrap {
+    max-width: 280px;
+    padding: 1rem;
+    background: linear-gradient(to right, #0074ff, #01005b);
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.how_wework_foryou .module {
+    background: white;
+    color: black;
+    padding: 5rem 2rem;
+    border-radius: 20px;
+}
+
+.how_wework_foryou .top-img img {
+    position: absolute;
+    top: -3%;
+    left: 16%;
+}
+
+.how_wework_foryou .bottom-img img {
+    border-radius: 50%;
+    background: linear-gradient(to right, #0074ff, #01005b);
+    padding: 2%;
+    position: absolute;
+    max-width: 149px;
+    bottom: -17%;
+    left: 24%;
+}
+
+
+/* how-we-work-for-you end */
+
+.best_app_lifestyle {
+    background-image: url(../../assets/images/best_app_lifestyle_BG3.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
+    padding: 0 4rem;
+}
+
+.best_app_lifestyle ul li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+.best_app_lifestyle .container-fluid {
+    padding: 11rem 0;
+}
+
+.best_app_lifestyle .smdy_img p {
+    font-family: "Poppins-Bold";
+    color: #242f51;
+    background-color: #e2eaed;
+    border-radius: 1.25rem;
+    width: 21.5rem;
+}
+
+.best_app_lifestyle .smdy_text p {
+    font-family: "Poppins-Bold";
+    color: #616368;
+    width: 33rem;
+}
+
+.best_app_lifestyle .smdy_img p img {
+    padding-right: 0.4rem;
+}
+
+.download_app_section {
+    background-image: url(../../assets/images/downlod_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    padding: 7.75rem 0;
+}
+
+.download_app_section h3 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #242f51;
+}
+
+
+/* test start */
+
+
+/* slider start */
+
+.servies_buddy_slider {
+    height: 400px !important;
+}
+
+.servies_buddy_slider section {
+    position: relative;
+    height: 450px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    background: #107f91;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: #0b5164;
+    border-radius: 20px 20px 0 0;
+}
+
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    position: relative;
+    z-index: 100;
+}
+
+.servies_buddy_slider section .card .image {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #0b5164;
+}
+
+.servies_buddy_slider section .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.card .name-profession {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.name-profession .name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name-profession .profession {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.under_line_img {
+    width: 50% !important;
+    padding: 5px 0;
+}
+
+ul.social_id {
+    padding: 0;
+    margin: 0;
+}
+
+ul.social_id li {
+    display: inline;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+ul.social_id li a {
+    color: white;
+}
+
+
+/*  */
+
+button.accordion-button.collapsed {
+    background: red !important;
+}
+
+
+/*  */
+
+.faq .text-center h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.faq .text-center p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #616368;
+    padding: 0.5rem 0 2rem 0;
+    margin: 0;
+}
+
+.our_customer_remark {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.our_customer_remark h3.main_heading_txt {
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    font-size: 3.313rem;
+    font-weight: 600;
+}
+
+.our_customer_remark .customers_pics {
+    position: relative;
+}
+
+.our_customer_remark .pics img {
+    max-width: 10%;
+    position: absolute;
+}
+
+.our_customer_remark .pics img:nth-child(1) {
+    top: 0%;
+    left: 35%;
+}
+
+.our_customer_remark .pics img:nth-child(2) {
+    top: 5%;
+    right: 15%;
+}
+
+.our_customer_remark .pics img:nth-child(3) {
+    top: 35%;
+    right: 50%;
+}
+
+.our_customer_remark .pics img:nth-child(4) {
+    top: 25%;
+    left: 8%;
+}
+
+.our_customer_remark .pics img:nth-child(5) {
+    top: 50%;
+    left: 10%;
+}
+
+.our_customer_remark .pics img:nth-child(6) {
+    top: 50%;
+    right: 25%;
+}
+
+.our_customer_remark .pics img:nth-child(7) {
+    bottom: 0%;
+    left: 25%;
+}
+
+.heading_text .content_heading h3 {
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.469rem;
+    font-weight: 600;
+}
+
+.heading_text .content_heading p {
+    color: #616368;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.our_customer_remark img.bg_customers_pics {
+    width: -webkit-fill-available;
+}
+
+.customer_view h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.313rem;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.why_choose_us {
+    background-image: url(../../assets/images/bg4_trangle.png);
+    background-color: #f8f5ff;
+    padding: 5rem 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.why_choose_us h3,
+.why_choose_us h4,
+.why_choose_us p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.why_choose_us .options {
+    color: #0b5164;
+    display: flex;
+}
+
+.why_choose_us .options img {
+    width: 15%;
+    margin: auto;
+}
+
+.why_choose_us span {
+    padding: 0 0 0 3rem;
+}
+
+.why_choose_us .options span h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.why_choose_us .options span p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 0 2px 0;
+    padding: 0;
+}
+
+.why_choose_us .hdng_n_txt {
+    max-width: 70%;
+    padding-bottom: 3rem;
+}
+
+.why_choose_us .hdng_n_txt h3 {
+    font-size: 3rem;
+    color: #0b5164;
+    font-weight: 500;
+}
+
+.why_choose_us .hdng_n_txt p {
+    margin: 0;
+}
+
+.services_buddies h3 {
+    font-family: 'Proxima Nova';
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* 1 */
+
+@media only screen and (min-width:307px) and (max-width:381px) {
+    .best_app_lifestyle {
+        padding: 0 0.5rem;
     }
-    
-    .we_deliver {
-        padding: 0 4rem 4rem 4rem;
+    .best_app_lifestyle .container-fluid {
+        padding: 1rem 0;
     }
-    
-    .we_deliver .txt_content {
-        padding: 4rem 0 0 0;
+    .best_app_lifestyle .smdy_img p {
+        font-size: 0.7rem;
+        width: fit-content;
+        padding: 0 1rem 0 0;
     }
-    
-    .we_deliver h3 {
-        font-size: 3.313rem;
-        padding: 0 0 4rem 0;
+    .best_app_lifestyle .smdy_text h2 {
+        font-size: 1.75rem;
+        line-height: initial;
     }
-    
-    .we_deliver p {
-        font-size: 1.125rem;
-        width: 27rem;
+    .best_app_lifestyle .smdy_btn ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
     }
-    
-    .download_app_second {
-        background-repeat: no-repeat;
-        background-image: url(../../assets/images/download_app_BG2.png);
-        overflow: hidden;
-        border-top: 1px solid #f4f4f4;
-        padding: 3rem 4rem;
-        background-position: right;
+    .best_app_lifestyle .smdy_btn button {
+        padding: 0.5rem 0.5rem !important;
+        font-size: 0.8rem !important;
     }
-    
-    .download_app_second .custom-width {
+}
+
+
+/* 2 */
+
+@media only screen and (min-width:382px) and (max-width:767px) {
+    .best_app_lifestyle {
+        padding: 0 0.5rem;
+    }
+    .best_app_lifestyle .container-fluid {
+        padding: 1rem 0;
+    }
+    .best_app_lifestyle .smdy_img p {
+        font-size: 0.7rem;
+        width: fit-content;
+        padding: 0 1rem 0 0;
+    }
+    .best_app_lifestyle .smdy_text h2 {
+        font-size: 2.5rem;
+        line-height: initial;
+        max-width: 21.1rem;
+    }
+    .best_app_lifestyle .smdy_btn ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+    }
+    .best_app_lifestyle .smdy_btn button {
+        padding: 0.5rem 0.5rem !important;
+        font-size: 0.8rem !important;
+    }
+    .background-best_app_lifestyle img {
         max-width: 60%;
     }
-    
-    .download_app_second h3 {
-        color: #4b7dbb;
-        padding: 0 0 3.5rem 0;
-        font-size: 3.125rem;
+}
+
+
+/* 3 */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .best_app_lifestyle {
+        padding: 0 0.5rem;
     }
-    
-    .download_app_second p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.25rem;
-        color: #000;
+    .best_app_lifestyle .container-fluid {
+        padding: 1rem 0;
     }
-    /* Download our App now rotating img */
-    
-    .image_rotating {
-        margin-top: 6%;
+    .background-best_app_lifestyle img {
+        max-width: 60%;
     }
-    
-    .animation_element {
-        margin: 0 auto;
-        max-width: 73%;
+}
+
+
+/* 4 */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+
+/* 5 */
+
+@media only screen and (min-width: 1025px) and (max-width: 1094px) {}
+
+
+/* 6 */
+
+@media only screen and (min-width: 1095px) and (max-width: 1523px) {}
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.oneWallet-img-sec {
+    position: relative;
+    max-width: 75%;
+    margin: auto;
+}
+
+.oneWallet-img-sec img {
+    padding: 0;
+}
+
+.oneWallet-img-sec .rounded-img {
+    /* -webkit-animation: round360 18s linear infinite;
+    -moz-animation: round360 18s linear infinite;
+    -ms-animation: round360 18s linear infinite;
+    -o-animation: round360 18s linear infinite;
+    animation: round360 18s linear infinite; */
+    animation-name: bg_rotate;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.oneWallet-img-sec .oneWallet_sub-img {
+    position: absolute;
+    top: 31%;
+    left: 33%;
+    max-width: 35%;
+    background: #fff;
+    border-radius: 50%;
+    height: auto;
+    padding: 2rem;
+}
+
+.oneWallet-img-sec .oneWallet_sub-img img {
+    width: 80px;
+    padding: 0;
+    margin: auto;
+}
+
+.oneWallet-img-sec .sec-1 {
+    /* position: absolute;
+    top: 9%;
+    right: -6%;
+    max-width: 200px; */
+    position: absolute;
+    top: -6%;
+    right: 44%;
+    max-width: 12%;
+}
+
+.oneWallet-img-sec .sec-2 {
+    position: absolute;
+    top: 6%;
+    right: 7%;
+    max-width: 16%;
+}
+
+.oneWallet-img-sec .sec-3 {
+    position: absolute;
+    bottom: 3%;
+    right: 11%;
+    max-width: 16%;
+}
+
+.oneWallet-img-sec .sec-4 {
+    position: absolute;
+    bottom: 8%;
+    left: 6%;
+    max-width: 16%;
+}
+
+.oneWallet-img-sec .sec-5 {
+    position: absolute;
+    top: 6%;
+    left: 7%;
+    max-width: 16%;
+}
+
+.oneWallet-img-sec .sec-6 {
+    position: absolute;
+    max-width: 15%;
+    top: 43%;
+    right: 6%;
+}
+
+.oneWallet-img-sec .sec-7 {
+    position: absolute;
+    max-width: 16%;
+}
+
+.oneWallet-img-sec .sec-8 {
+    position: absolute;
+    max-width: 16%;
+}
+
+.oneWallet-img-sec .cryptoCurrenciesIcons .animEl {
+    border-radius: 12px;
+    z-index: 99999;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    transition-delay: 0s;
+}
+
+.oneWallet-img-sec .cryptoCurrenciesIcons .sec-box-shadows-right {
+    box-shadow: 6px 9px 26px 5px #efefef;
+}
+
+.oneWallet-img-sec .cryptoCurrenciesIcons .sec-box-shadows-left {
+    box-shadow: -17px 14px 26px 5px #efefef;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:first-child .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.1s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:first-child .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(2) .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.2s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(2) .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(3) .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.3s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(3) .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(4) .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.4s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(4) .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(5) .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.5s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(5) .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(6) .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.6s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(6) .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(7) .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.7s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(7) .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(8) .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.8s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(8) .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(9) .animEl {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition-delay: 0.9s;
+}
+
+.oneWallet-img-sec.inView .cryptoCurrenciesIcons:nth-child(9) .animEl:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.cas-token-img-sec .rounded-img {
+    -webkit-animation: round360 18s linear infinite;
+    -moz-animation: round360 18s linear infinite;
+    -ms-animation: round360 18s linear infinite;
+    -o-animation: round360 18s linear infinite;
+    animation: round360 18s linear infinite;
+}
+
+.oneWallet-img-sec .oneWallet_sub-img {
+    position: absolute;
+    top: 31%;
+    left: 33%;
+    max-width: 35%;
+    background: #fff;
+    border-radius: 50%;
+    height: auto;
+    padding: 2rem;
+}
+
+.oneWallet-img-sec .oneWallet_sub-img img {
+    width: 80px;
+    padding: 0;
+    margin: auto;
+}
+
+.oneWallet-img-sec .oneWallet_sub-img {
+    position: absolute;
+    top: 31%;
+    left: 33%;
+    max-width: 35%;
+    background: #fff;
+    border-radius: 50%;
+    height: auto;
+    padding: 2rem;
+}
+
+.oneWallet-img-sec .oneWallet_sub-img img {
+    width: 80px;
+    padding: 0;
+    margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .cas-token-img-sec .rounded-img {
+        -webkit-animation: round360 18s linear infinite;
+        -moz-animation: round360 18s linear infinite;
+        -ms-animation: round360 18s linear infinite;
+        -o-animation: round360 18s linear infinite;
+        animation: round360 18s linear infinite;
     }
-    
-    .animation_element img.rounded_img {
-        /* width: 100%; */
-        animation-name: bg_rotate;
-        animation-duration: 2s;
-        animation-delay: 0s;
-        border-radius: 50%;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
-    
-    @keyframes bg_rotate {
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-    /* ######################## */
-    
-    .centre_logo {
-        width: 20%;
-    }
-    
-    img.centre_logo {
-        top: 39%;
-        left: 39%;
-    }
-    
-    img.sub-img-1 {
-        max-width: 15%;
-    }
-    
-    img.computer_repair {
-        top: 6%;
-        left: 15%;
-    }
-    
-    img.google_ads {
-        top: -10%;
-        left: 40%;
-    }
-    
-    img.printer_repair {
-        top: 6%;
-        right: 15%;
-    }
-    
-    img.computer_desktop {
-        bottom: 5%;
-        right: 15%;
-    }
-    
-    img.computer_accessories {
-        bottom: 5%;
-        left: 15%;
-    }
-    
-    img.sub-img-2 {
-        max-width: 12.5%;
-    }
-    
-    img.laptop_repair {
-        left: 18%;
-        top: 40%;
-    }
-    
-    img.opd_buddy {
-        top: 40%;
-        right: 18%;
-    }
-    
-    img.ups_repair {
-        bottom: 10%;
-        left: 35%;
-    }
-    
-    img.sub-img-3 {
-        max-width: 10%;
-    }
-    
-    img.cctv_camera {
-        left: 45%;
-        top: 20%;
-    }
-    
-    img.laptop_img {
-        top: 30%;
-        right: 32%;
-    }
-    
-    img.ups_img {
-        bottom: 25%;
-        right: 35%;
-    }
-    
-    img.csc_img {
-        top: 55%;
-        left: 32%;
-    }
-    /* ######################## */
-    /* Download our App now rotating img end */
-    /* how-we-work-for-you start */
-    
-    .how_wework_foryou {
-        margin: 5% 0;
-    }
-    
-    .how_wework_foryou .white_bg {
-        max-width: 300px;
-        margin: 0 auto;
-        background-color: white;
-        padding: 19px;
-        border-radius: 35px;
-        box-shadow: 1px 3px 8px 0px black;
+}
+
+@media only screen and (max-width: 576px) {
+    .oneWallet-img-sec {
         position: relative;
-    }
-    
-    .how_wework_foryou .module-border-wrap {
-        max-width: 280px;
-        padding: 1rem;
-        background: linear-gradient(to right, #0074ff, #01005b);
-        padding: 6px;
-        border-radius: 20px;
-    }
-    
-    .how_wework_foryou .module {
-        background: white;
-        color: black;
-        padding: 5rem 2rem;
-        border-radius: 20px;
-    }
-    
-    .how_wework_foryou .top-img img {
-        position: absolute;
-        top: -3%;
-        left: 16%;
-    }
-    
-    .how_wework_foryou .bottom-img img {
-        border-radius: 50%;
-        background: linear-gradient(to right, #0074ff, #01005b);
-        padding: 2%;
-        position: absolute;
-        max-width: 149px;
-        bottom: -17%;
-        left: 24%;
-    }
-    /* how-we-work-for-you end */
-    
-    .download_app_section {
-        background-image: url(../../assets/images/downlod_bg.png);
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: 50%;
-        padding: 7.75rem 0;
-    }
-    
-    .download_app_section h3 {
-        font-weight: 600;
-        font-family: 'Poppins', sans-serif;
-        font-size: 3rem;
-        color: #242f51;
-    }
-    /* test start */
-    /* slider start */
-    
-    .servies_buddy_slider {
-        height: 400px !important;
-    }
-    
-    .servies_buddy_slider section {
-        position: relative;
-        height: 450px;
-        width: 1075px;
-        display: flex;
-        align-items: center;
-    }
-    
-    .card {
-        position: relative;
-        background: #107f91;
-        border-radius: 20px;
-        margin: 20px 0;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    .card::before {
-        content: "";
-        position: absolute;
-        height: 40%;
-        width: 100%;
-        background: #0b5164;
-        border-radius: 20px 20px 0 0;
-    }
-    
-    .card .card-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 30px 0;
-        position: relative;
-        z-index: 100;
-    }
-    
-    .servies_buddy_slider section .card .image {
-        height: 140px;
-        width: 140px;
-        border-radius: 50%;
-        padding: 3px;
-        background: #0b5164;
-    }
-    
-    .servies_buddy_slider section .card .image img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 3px solid #fff;
-    }
-    
-    .card .name-profession {
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10px;
-    }
-    
-    .name-profession .name {
-        font-size: 20px;
-        font-weight: 600;
-    }
-    
-    .name-profession .profession {
-        font-size: 15px;
-        font-weight: 500;
-    }
-    
-    .under_line_img {
-        width: 50% !important;
-        padding: 5px 0;
-    }
-    
-    ul.social_id {
-        padding: 0;
-        margin: 0;
-    }
-    
-    ul.social_id li {
-        display: inline;
-        margin: 0 auto;
-        padding: 0 5px;
-    }
-    
-    ul.social_id li a {
-        color: white;
-    }
-    /*  */
-    
-    button.accordion-button.collapsed {
-        background: red !important;
-    }
-    /*  */
-    
-    .faq .text-center h2 {
-        font-family: 'Poppins', sans-serif;
-        color: #242f51;
-        font-weight: 600;
-        font-size: 2.5rem;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .faq .text-center p {
-        font-size: 1rem;
-        font-family: 'Poppins', sans-serif;
-        font-weight: normal;
-        color: #616368;
-        padding: 0.5rem 0 2rem 0;
-        margin: 0;
-    }
-    
-    .our_customer_remark {
-        width: 95%;
-        margin: 0 auto;
-    }
-    
-    .our_customer_remark h3.main_heading_txt {
-        font-family: 'Poppins', sans-serif;
-        color: #242f51;
-        font-size: 3.313rem;
-        font-weight: 600;
-    }
-    
-    .our_customer_remark .customers_pics {
-        position: relative;
-    }
-    
-    .our_customer_remark .pics img {
-        max-width: 10%;
-        position: absolute;
-    }
-    
-    .our_customer_remark .pics img:nth-child(1) {
-        top: 0%;
-        left: 35%;
-    }
-    
-    .our_customer_remark .pics img:nth-child(2) {
-        top: 5%;
-        right: 15%;
-    }
-    
-    .our_customer_remark .pics img:nth-child(3) {
-        top: 35%;
-        right: 50%;
-    }
-    
-    .our_customer_remark .pics img:nth-child(4) {
-        top: 25%;
-        left: 8%;
-    }
-    
-    .our_customer_remark .pics img:nth-child(5) {
-        top: 50%;
-        left: 10%;
-    }
-    
-    .our_customer_remark .pics img:nth-child(6) {
-        top: 50%;
-        right: 25%;
-    }
-    
-    .our_customer_remark .pics img:nth-child(7) {
-        bottom: 0%;
-        left: 25%;
-    }
-    
-    .heading_text .content_heading h3 {
-        color: #242f51;
-        font-family: 'Poppins', sans-serif;
-        font-size: 2.469rem;
-        font-weight: 600;
-    }
-    
-    .heading_text .content_heading p {
-        color: #616368;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        font-weight: normal;
-    }
-    
-    .our_customer_remark img.bg_customers_pics {
-        width: -webkit-fill-available;
-    }
-    
-    .customer_view h4 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.313rem;
-        font-weight: 600;
-        color: #242f51;
-    }
-    
-    .why_choose_us {
-        background-image: url(../../assets/images/bg4_trangle.png);
-        background-color: #f8f5ff;
-        padding: 5rem 0;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    
-    .why_choose_us h3,
-    .why_choose_us h4,
-    .why_choose_us p {
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .why_choose_us .options {
-        color: #0b5164;
-        display: flex;
-    }
-    
-    .why_choose_us .options img {
-        width: 15%;
+        max-width: 460px;
         margin: auto;
     }
-    
-    .why_choose_us span {
-        padding: 0 0 0 3rem;
-    }
-    
-    .why_choose_us .options span h4 {
-        font-size: 2rem;
-        font-weight: 500;
-        margin: 0;
+    .oneWallet-img-sec img {
         padding: 0;
     }
-    
-    .why_choose_us .options span p {
-        font-size: 1.5rem;
-        font-weight: 300;
-        margin: 0 0 2px 0;
+    .oneWallet-img-sec .oneWallet_sub-img {
+        padding: 1rem;
+    }
+    .oneWallet-img-sec .sec-1,
+    .oneWallet-img-sec .sec-2,
+    .oneWallet-img-sec .sec-3,
+    .oneWallet-img-sec .sec-4,
+    .oneWallet-img-sec .sec-5 {
+        max-width: 150px;
+    }
+    .oneWallet-img-sec .sec-1 {
+        position: absolute;
+        top: 9%;
+        right: 0;
+    }
+    .oneWallet-img-sec .sec-2 {
+        position: absolute;
+        top: 3%;
+        left: 0;
+    }
+    .oneWallet-img-sec .sec-3 {
+        position: absolute;
+        bottom: 28%;
+        right: 0;
+    }
+    .oneWallet-img-sec .sec-4 {
+        position: absolute;
+        bottom: 5%;
+        left: 0;
+    }
+    .oneWallet-img-sec .sec-5 {
+        position: absolute;
+        top: 40%;
+        left: -4%;
+    }
+    .oneWallet-img-sec .oneWallet_sub-img {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .oneWallet-img-sec {
+        position: relative;
+        max-width: 460px;
+        margin: auto;
+    }
+    .oneWallet-img-sec img {
         padding: 0;
     }
-    
-    .why_choose_us .hdng_n_txt {
-        max-width: 70%;
-        padding-bottom: 3rem;
+    .oneWallet-img-sec .oneWallet_sub-img {
+        padding: 1rem;
     }
-    
-    .why_choose_us .hdng_n_txt h3 {
-        font-size: 3rem;
-        color: #0b5164;
-        font-weight: 500;
+    .oneWallet-img-sec .sec-1,
+    .oneWallet-img-sec .sec-2,
+    .oneWallet-img-sec .sec-3,
+    .oneWallet-img-sec .sec-4,
+    .oneWallet-img-sec .sec-5 {
+        max-width: 130px;
     }
-    
-    .why_choose_us .hdng_n_txt p {
-        margin: 0;
+    .oneWallet-img-sec .sec-1 {
+        position: absolute;
+        top: 9%;
+        right: 0;
     }
-    
-    .services_buddies h3 {
-        font-family: 'Proxima Nova';
-        font-size: 3rem;
-        font-weight: 500;
-        color: #000;
-        font-family: 'Roboto', sans-serif;
+    .oneWallet-img-sec .sec-2 {
+        position: absolute;
+        top: 3%;
+        left: 0;
     }
-    /* 1 */
-    
-    @media only screen and (min-width:307px) and (max-width:381px) {
-        .why_choose_us .options {
-            display: inherit;
-        }
-        .why_choose_us .hdng_n_txt {
-            max-width: 100%;
-            padding-bottom: 3rem;
-        }
-        .why_choose_us .options {
-            padding-bottom: 3rem;
-        }
-        .how_wework_foryou .work-process-cards {
-            height: 47.5rem;
-        }
-        .how_wework_foryou .top-img img {
-            position: absolute;
-            top: -3%;
-            left: 12%;
-        }
-        .how_wework_foryou .bottom-img img {
-            bottom: -10%;
-            left: 22%;
-        }
-        .download_app_second {
-            padding: 1.5rem 0.1rem;
-            background-position: revert;
-            background-size: contain;
-        }
-        .download_app_second .custom-width {
-            max-width: 94%;
-        }
-        .we_deliver {
-            padding: 0 1rem;
-            margin: 0 auto;
-        }
-        .we_deliver h3 {
-            font-size: 2.8rem;
-            padding: 0 0 0.3rem 0;
-            margin: 0;
-        }
-        .we_deliver .txt_content {
-            padding: 2rem 0 0 0;
-        }
-        /*  */
+    .oneWallet-img-sec .sec-3 {
+        position: absolute;
+        bottom: 28%;
+        right: 0;
     }
-    /* 2 */
-    
-    @media only screen and (min-width:382px) and (max-width:767px) {
-        .how_wework_foryou .work-process-cards {
-            height: 47.5rem;
-        }
+    .oneWallet-img-sec .sec-4 {
+        position: absolute;
+        bottom: 5%;
+        left: 0;
     }
-    /* 3 */
-    
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .how_wework_foryou .work-process-cards {
-            height: 47.5rem;
-        }
+    .oneWallet-img-sec .sec-5 {
+        position: absolute;
+        top: 40%;
+        left: -4%;
     }
-    /* 4 */
-    
-    @media only screen and (min-width: 992px) and (max-width: 1024px) {
-        .how_wework_foryou .work-process-cards {
-            height: 47.5rem;
-        }
+    .oneWallet-img-sec .oneWallet_sub-img {
+        padding: 1rem;
     }
-    /* 5 */
-    
-    @media only screen and (min-width: 1025px) and (max-width: 1094px) {
-        .how_wework_foryou .work-process-cards {
-            height: 47.5rem;
-        }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 580px) {
+    .oneWallet-img-sec {
+        position: relative;
+        max-width: 460px;
+        margin: auto;
     }
-    /* 6 */
-    
-    @media only screen and (min-width: 1095px) and (max-width: 1523px) {
-        .how_wework_foryou .work-process-cards {
-            height: 47.5rem;
-        }
+    .oneWallet-img-sec img {
+        padding: 0;
     }
+    .oneWallet-img-sec .oneWallet_sub-img {
+        padding: 1rem;
+    }
+    .oneWallet-img-sec .sec-1,
+    .oneWallet-img-sec .sec-2,
+    .oneWallet-img-sec .sec-3,
+    .oneWallet-img-sec .sec-4,
+    .oneWallet-img-sec .sec-5 {
+        max-width: 180px;
+    }
+    .oneWallet-img-sec .sec-1 {
+        position: absolute;
+        top: 9%;
+        right: 0;
+    }
+    .oneWallet-img-sec .sec-2 {
+        position: absolute;
+        top: 3%;
+        left: 0;
+    }
+    .oneWallet-img-sec .sec-3 {
+        position: absolute;
+        bottom: 28%;
+        right: 0;
+    }
+    .oneWallet-img-sec .sec-4 {
+        position: absolute;
+        bottom: 5%;
+        left: 0;
+    }
+    .oneWallet-img-sec .sec-5 {
+        position: absolute;
+        top: 40%;
+        left: -4%;
+    }
+    .oneWallet-img-sec .oneWallet_sub-img {
+        padding: 1rem;
+    }
+}
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.oneWallet-img-sec.animateElements.inView .sub-img-size_1 img {
+    max-width: 50%;
+    border-radius: 100% !important;
+}
+
+.we_deliver__start {
+    padding: 2rem 0;
+}
+
+.cryptoCurrenciesIcons img {
+    border-radius: 100% !important;
+}
