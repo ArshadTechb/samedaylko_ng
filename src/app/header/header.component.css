@@ -6,6 +6,7 @@
 ul.navbar-nav li.nav-item a.nav-link {
     font-family: "Poppins-SemiBold";
     color: #03222b;
+    font-size: 1.125rem;
 }
 
 .fixed-top {

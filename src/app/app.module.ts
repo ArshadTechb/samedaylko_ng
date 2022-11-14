@@ -16,6 +16,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TicketService } from './services/tickets.service';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
+import { NextDirective } from './next.directive';
+import { PrevDirective } from './prev.directive';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+// import { CarouselModule } from 'ngx-owl-carousel-o';
+
+
+
 
 
 const myRoutes = [
@@ -30,6 +37,7 @@ const myRoutes = [
 ];
 @NgModule({
   declarations: [
+
     AppComponent,
     HomeComponent,
     ErrorComponent,
@@ -37,19 +45,26 @@ const myRoutes = [
     FooterComponent,
     TicketComponent,
     PrivacyPolicyComponent,
-    TermsConditionsComponent
+    TermsConditionsComponent,
+    NextDirective,
+    PrevDirective,
+    
+    
   ],
   imports: [
+ 
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(myRoutes,{enableTracing:true, useHash: false ,scrollPositionRestoration: 'enabled'}),
-    // RouterModule.forRoot(myRoutes),
     ReactiveFormsModule,
     HttpClientModule,
-    IvyCarouselModule,
     NgbModule,
     FormsModule,
-    BrowserAnimationsModule
+    IvyCarouselModule,
+    BrowserAnimationsModule,
+    SlickCarouselModule
+    // CarouselModule
+   
   ],
   exports: [RouterModule],
   providers: [],

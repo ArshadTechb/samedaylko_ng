@@ -141,3 +141,55 @@
     max-width: 31.25%;
     display: none;
 }
+
+
+/*  */
+
+.how_wework_foryou {
+    margin: 5% 0;
+}
+
+.how_wework_foryou .white_bg {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 19px;
+    border-radius: 35px;
+    box-shadow: 1px 3px 8px 0px black;
+    position: relative;
+}
+
+.how_wework_foryou .module-border-wrap {
+    max-width: 280px;
+    padding: 1rem;
+    background: linear-gradient(to right, #0074ff, #01005b);
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.how_wework_foryou .module {
+    background: white;
+    color: black;
+    padding: 5rem 2rem;
+    border-radius: 20px;
+}
+
+.how_wework_foryou .top-img img {
+    position: absolute;
+    top: -3%;
+    left: 16%;
+}
+
+.how_wework_foryou .bottom-img img {
+    border-radius: 50%;
+    background: linear-gradient(to right, #0074ff, #01005b);
+    padding: 2%;
+    position: absolute;
+    max-width: 149px;
+    bottom: -17%;
+    left: 24%;
+}
+
+.how_wework_foryou .heading_n_pragraph h3 {
+    font-family: "Roboto-Bold";
+}

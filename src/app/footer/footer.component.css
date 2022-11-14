@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../../assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+
 ul.navbar-nav li.nav-item a.nav-link {
     color: #03222b;
 }
@@ -14,7 +24,7 @@ ul.navbar-nav li.nav-item a.nav-link {
 footer {
     text-align: center;
     padding: 1.25rem;
-    background-color: #133e4d;
+    background-color: #00647f;
 }
 
 .footer_menu ul {
@@ -29,7 +39,7 @@ footer {
     color: white !important;
     padding: 5px 10px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins-Regular";
 }
 
 .footer_menu ul li a:hover {
@@ -51,7 +61,7 @@ footer {
 
 .footer {
     position: relative;
-    padding: 5rem 0;
+    /* padding: 5rem 0; */
 }
 
 .footer .bg_circles {
@@ -77,9 +87,9 @@ footer {
 }
 
 .copyright p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto-Bold";
     font-size: 1rem;
-    color: #456773;
+    color: #36859a;
 }
 
 @media only screen and (min-width:307px) and (max-width:381px) {
